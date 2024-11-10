@@ -1,23 +1,18 @@
 // # [JSL04] Submission: Monster Ternary Operator
 
-/*Show - Variable*/
-let show = "";
-
 // #### Challenge 1: Flavor Selection
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
 let userPreference = 'Sugar-free'; // Possible values: 'Regular', 'Sugar-free', or undefined
-show = (userPreference === 'Sugar-free') ? "Sugar-free" : "Regular";
-console.log(`${show}`);
+console.log((userPreference === 'Sugar-free') ? "Sugar-free" : "Regular");
 
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
 let cansLeft = 3; // Any number of cans
-show = (cansLeft >= 5) ? "We're stocked!" : "Time to restock!";
-console.log(`${show}`);
+console.log((cansLeft >= 5) ? "We're stocked!" : "Time to restock!");
 
 
 // #### Challenge 3: Workout Intensity
@@ -25,8 +20,7 @@ console.log(`${show}`);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-show = (heartRate >= 100) ? "Energy levels are high!" : "Boost needed!";
-console.log(`${show}`);
+console.log((heartRate >= 100) ? "Energy levels are high!" : "Boost needed!");
 
 
 // #### Challenge 4: Temperature Suitability
@@ -34,8 +28,7 @@ console.log(`${show}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-show = (currentTemp >= 5) ? "Needs a cooler!" : "Chilled to perfection!";
-console.log(`${show}`);
+console.log((currentTemp >= 5) ? "Needs a cooler!" : "Chilled to perfection!");
 
 
 // #### Challenge 5: Late Night Coding Session
@@ -48,8 +41,7 @@ let currentHour = 22;
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
-show = (currentHour >= 7 && currentHour < 24) ? "Unleash the beast!" : "Better stick to water";
-console.log(`${show}`);
+console.log((currentHour >= 7 && currentHour < 24) ? "Unleash the beast!" : "Better stick to water");
 
 
 
