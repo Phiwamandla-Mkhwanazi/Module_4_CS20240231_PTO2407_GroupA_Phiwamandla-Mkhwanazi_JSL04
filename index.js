@@ -34,6 +34,7 @@ console.log(`${show}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
+show = (currentTemp >= 5) ? "Needs a cooler" : "Chilled to perfection!";
 console.log(`${show}`);
 
 
