@@ -34,7 +34,7 @@ console.log(`${show}`);
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
 
 let currentTemp = 4; // Current temperature in °C
-show = (currentTemp >= 5) ? "Needs a cooler" : "Chilled to perfection!";
+show = (currentTemp >= 5) ? "Needs a cooler!" : "Chilled to perfection!";
 console.log(`${show}`);
 
 
@@ -45,10 +45,10 @@ console.log(`${show}`);
 
 // Define the current hour in 24-hour format
 let currentHour = 22; 
-
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
+show = (currentHour >= 7 && currentHour < 24) ? "Unleash the beast!" : "Better stick to water";
 console.log(`${show}`);
 
 
