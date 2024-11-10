@@ -1,5 +1,7 @@
 // # [JSL04] Submission: Monster Ternary Operator
 
+/*Show - Variable*/
+let show = "";
 // #### Challenge 1: Flavor Selection
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
